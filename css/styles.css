@@ -1,0 +1,28 @@
+
+body {
+    height: 1000px;
+    background-color: #cccccc;
+    background-image: linear-gradient(#FDECDB, #fdd2a8);
+    /*background-image: linear-gradient(#fdd2a8, #E2B58B);*/
+    font-family: Tahoma, Times; /*Default to Times if browser doesn't support Tahoma*/
+    /*background-image: linear-gradient(red, yellow);*/
+}
+
+.ins-selfie {
+    height: 200px;
+    background-image: url(../images/selfie.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.maj-title {
+    text-align: center;
+    color: white;
+}
+
+.code-img {
+    background-image: url(../images/coding-portfolio.jpeg);
+    background-size:cover;
+    border-radius: 10px;
+}
