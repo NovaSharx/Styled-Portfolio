@@ -8,18 +8,15 @@ body {
     font-family: Tahoma, Times; /*Default to Times if browser doesn't support Tahoma*/
 }
 
-#holder{
+.emptybox{
     width:100%;
     height: auto;
     display: flex;
     justify-content: center;
 }
 
-.child{
-    margin: 0 auto;
-}
-
 .ins-selfie {
+    margin: 0 auto;
     height: 400px;
     background-image: url(../images/selfie.jpg);
     background-size: contain;
