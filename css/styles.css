@@ -3,25 +3,16 @@ body {
     height: 1000px;
     background-color: #cccccc;
     background-image: linear-gradient(#FDECDB, #fdd2a8);
-    /*background-image: linear-gradient(#fdd2a8, #E2B58B);*/
-    /*background-image: linear-gradient(red, yellow);*/
     font-family: Tahoma, Times; /*Default to Times if browser doesn't support Tahoma*/
 }
 
 .emptybox{
-    width:100%;
-    height: auto;
     display: flex;
     justify-content: center;
 }
 
 .ins-selfie {
-    margin: 0 auto;
     height: 400px;
-    background-image: url(../images/selfie.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
     border-radius: 50px;
 }
 
